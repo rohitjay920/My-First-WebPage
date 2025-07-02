@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+} */
+.top-container {
+  background-color: #555879;
+  height: 226px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding-top: 30px;
+}
+.img1 {
+  position: absolute;
+  left: 41%;
+  top: 96px;
+}
+
+h1 {
+  font-size: 30px;
+  font-style: oblique;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  color: antiquewhite;
+  /* margin: 0 auto; */
+  /* position: relative;
+    top: x0px; */
+}
+.para {
+  font-style: oblique;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  color: antiquewhite;
+  /* position: relative;
+    top: 100px; */
+}
+
+.demo {
+  color: black;
+}
+
+.middle {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.img2 {
+  margin-top: 40px;
+}
+
+.heading2 {
+  font-style: oblique;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.p-text {
+  display: inline-block;
+  width: 50%;
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 0%;
+  width: 5%;
+  margin-left: 48%;
+}
+
+.bottom-last {
+  display: flex;
+  /* background-color: aqua; */
+  justify-items: center;
+}
+
+table {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.img4 {
+  border-radius: 50%;
+}
+
+.last-para {
+  font-style: oblique;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  color: black;
+  text-align: center;
+}
+
+button {
+  margin-left: 45%;
+  display: inline-block;
+  padding: 15px 34px;
+  color: white;
+  background-color: #555879;
+  border-radius: 20px;
+  border: none;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+a {
+  margin-top: 40px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+  height: 150px;
+  background-color: #555879;
+}
+.footer > p {
+  color: white;
+}
